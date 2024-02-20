@@ -1,0 +1,31 @@
+//
+//  RetosProgramacion_00App.swift
+//  RetosProgramacion#00
+//
+//  Created by Rafael Medrano Arroyo on 19/02/24.
+//
+
+import SwiftUI
+import Foundation
+
+// Utilizare lenguaje Swift https://www.swift.org
+
+// Comentario de una linea
+
+/* Este es 
+un comentario de
+varias lineas*/
+
+func main() {
+    
+    var autoKia: String = "Kia rio" // Variable
+    let autoFord: String = "Ford mustang" // Constante (su valor no podra ser modificado)
+    var lenguaje: String = "Swift"
+    var cilindros: Int = 4
+    var precioKia: Double = 150000.20
+    var usado: Bool = true
+    var precioFord: Float = 250000.20
+    
+    print("¡Hola \(lenguaje)!")
+    print("imprimo resto de variables \(autoKia). \(cilindros). \(precioKia). \(precioFord). \(usado).")
+}
